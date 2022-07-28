@@ -1,0 +1,24 @@
+{
+  "name": "fordhambiomag_webapp",
+  "version": "1.0.0",
+  "description": "Fordham BioMag's 1st JAMStack Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy -- serve", 
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mellieho9/fordhambiomag_webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mellieho9/fordhambiomag_webapp/issues"
+  },
+  "homepage": "https://github.com/mellieho9/fordhambiomag_webapp#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
