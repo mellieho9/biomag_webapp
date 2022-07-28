@@ -1,10 +1,3 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -166,10 +159,6 @@ module.exports = isArray;
 /* globals window, document, navigator, WEBFLOW_ENV_TEST */
 
 /* eslint-disable no-var */
-
-/**
- * Webflow: Core site library
- */
 
 var Webflow = {};
 var modules = {};
