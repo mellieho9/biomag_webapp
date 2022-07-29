@@ -1,9 +1,8 @@
 module.exports = function(eleventyConfig){
 
-    eleventyConfig.addPassthrough("./src/css/normalize.css");
-    eleventyConfig.addPassthrough("./src/css/default_theme.css");
-    eleventyConfig.addPassthrough("./src/css/fdbiomag.css");
-    eleventyConfig.addPassthrough("./src/js/script.js");
+    eleventyConfig.addPassthroughCopy("./src/css");
+    eleventyConfig.addPassthroughCopy("./src/images");
+    eleventyConfig.addPassthroughCopy("./src/js");
     return {
         dir: {
             input: "src",
