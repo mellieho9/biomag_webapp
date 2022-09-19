@@ -8,3 +8,4 @@ The executive board at Fordham BioMag, Fordham University's 1st student-led scie
 - React.js
 - Strapi
 - Eleventy
+- Tailwind CSS
