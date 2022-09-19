@@ -1,0 +1,15 @@
+[
+    {
+        "label": "About",
+        "url": "/about"
+    },
+    {
+        "label": "Categories",
+        "url": "/tags"
+    },
+    {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/fordhambiomag/",
+        "newTab": true
+    }
+]
